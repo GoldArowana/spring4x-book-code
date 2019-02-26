@@ -15,6 +15,7 @@ public class LoginController {
     @Autowired
     private UserService userService;
 
+    //http://localhost:8000/bbs/index.html
     @RequestMapping(value = "/index.html")
     public String loginPage() {
         return "login";
